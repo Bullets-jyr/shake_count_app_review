@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: '흔들기 카운트 앱'),
     );
   }
 }
@@ -106,11 +106,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              '흔들어서 카운트를 올려보세요.',
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: Theme.of(context).textTheme.displayLarge,
             ),
           ],
         ),
